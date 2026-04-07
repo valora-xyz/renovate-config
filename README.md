@@ -1,4 +1,4 @@
-# valora-inc/renovate-config
+# valora-xyz/renovate-config
 
 Shareable [Renovate](https://renovatebot.com) config for Valora repositories.
 
@@ -10,7 +10,7 @@ Add the following into your `renovate.json5`:
 
 ```json5
 {
-  extends: ['github>valora-inc/renovate-config:default.json5'],
+  extends: ['github>valora-xyz/renovate-config:default.json5'],
 }
 ```
 
@@ -26,7 +26,7 @@ not possible, then the Valora base presets can be used instead as follows:
 
 ```json5
 {
-  extends: ['github>valora-inc/renovate-config:base.json5'],
+  extends: ['github>valora-xyz/renovate-config:base.json5'],
 }
 ```
 
@@ -42,7 +42,7 @@ Examples:
 
 ```json5
 {
-  extends: ['github>valora-inc/renovate-config:default.json5'],
+  extends: ['github>valora-xyz/renovate-config:default.json5'],
   semanticCommits: 'disabled',
 }
 ```
@@ -51,7 +51,7 @@ Examples:
 
 ```json5
 {
-  extends: ['github>valora-inc/renovate-config:default.json5'],
+  extends: ['github>valora-xyz/renovate-config:default.json5'],
   packageRules: [
     {
       matchDepTypes: ['peerDependencies', 'engines'],
