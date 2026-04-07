@@ -16,8 +16,8 @@
   ignorePresets: [':prHourlyLimit2'],
   // Bump version ranges instead of pinning since we use lock files
   rangeStrategy: 'bump',
-  // Set a status check pending for 3 days from release timestamp to guard against unpublishing
-  stabilityDays: 3,
+  // Delay updates to reduce risk supply chain security risks
+  minimumReleaseAge: 7 days
   // Automerge all updates (see packageRules below for exceptions)
   automerge: true,
   // Only automerge during weekdays when the team is up, and skip Fridays.
